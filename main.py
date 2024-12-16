@@ -22,7 +22,7 @@ def get_answer_for_question(question: str, knowledge_base: dict) -> Union[str, N
     return None
 
 def chat_bot():
-    knowledge_base: dict = load_knowledge_base("Extra Cedit - Chatbot/knowledge_base.json")
+    knowledge_base: dict = load_knowledge_base("knowledge_base.json")
 
     while True:
         user_input: str = input("You: ")
